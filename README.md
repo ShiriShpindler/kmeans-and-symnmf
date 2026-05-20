@@ -13,3 +13,8 @@ Implementation of K-Means and Symmetric Nonnegative Matrix Factorization (SymNMF
 - SymNMF implementation
 - Python-C integration
 - Matrix optimization
+
+## How to Run
+```bash
+python setup.py build_ext --inplace
+python symnmf.py <k> <goal> <input_file>
